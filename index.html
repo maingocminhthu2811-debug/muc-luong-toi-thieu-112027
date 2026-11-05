@@ -75,6 +75,9 @@
     .text-glow-gold {
       text-shadow: 0 2px 14px rgba(255, 215, 0, 0.6);
     }
+    .text-glow-orange {
+      text-shadow: 0 0 16px rgba(255, 175, 30, 0.85), 0 0 4px rgba(255, 220, 100, 0.6), 0 2px 6px rgba(0, 0, 0, 0.35);
+    }
 
     /* Hiệu ứng kính mờ (Glassmorphism) */
     .card-glass {
@@ -190,8 +193,8 @@
        SECTION HERO: TỶ LỆ 16:9 - TITLE & HIỆU ỨNG TIỀN VÀNG RƠI TÍCH TỤ
   ======================================================== -->
   <section id="hero" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-10">
-    <!-- Khung 16:9 Container chuẩn tỉ lệ đồ họa infographic -->
-    <div class="relative w-full aspect-[16/9] min-h-[460px] sm:min-h-[520px] rounded-3xl overflow-hidden card-glass border border-white/30 shadow-2xl flex flex-col justify-center p-6 sm:p-10 lg:p-14">
+    <!-- Khung Container chuẩn tỉ lệ đồ họa: aspect-auto trên mobile, 16:9 trên desktop -->
+    <div class="relative w-full aspect-auto lg:aspect-[16/9] min-h-[580px] sm:min-h-[540px] lg:min-h-[500px] rounded-3xl overflow-hidden card-glass border border-white/30 shadow-2xl flex flex-col justify-center p-5 sm:p-10 lg:p-14 pb-14 sm:pb-10 lg:pb-14">
       
       <!-- Canvas hiệu ứng đồng tiền rơi tích tụ đầy khung hình -->
       <canvas id="coinCanvas" class="absolute inset-0 w-full h-full pointer-events-none z-0"></canvas>
@@ -219,7 +222,7 @@
         </div>
 
         <!-- Cột phải: Minh họa đồng xu 3D & Badge tích lũy thu nhập -->
-        <div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+        <div class="lg:col-span-5 flex flex-col items-center justify-center relative my-4 sm:my-0 pb-6 sm:pb-0">
           <!-- Huy hiệu đồng tiền vàng 3D trung tâm -->
           <div class="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 pulse-glow flex items-center justify-center">
             <!-- Vòng hào quang -->
@@ -234,7 +237,7 @@
 
             <!-- 4 Mini floating badges 4 Vùng bố trí nổi xung quanh đồng xu -->
             <!-- Vùng I: Góc trên bên trái -->
-            <div class="absolute -top-8 -left-11 sm:-left-15 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-indigo-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-1 z-20 hover:scale-105 transition-transform">
+            <div class="absolute -top-7 sm:-top-8 -left-8 sm:-left-15 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-indigo-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-1 z-20 hover:scale-105 transition-transform">
               <span class="w-2.5 h-2.5 rounded-full bg-indigo-400 flex-shrink-0"></span>
               <div class="text-left leading-tight">
                 <span class="text-[9px] sm:text-[10px] uppercase font-bold text-indigo-200 block">Vùng I</span>
@@ -243,7 +246,7 @@
             </div>
 
             <!-- Vùng II: Góc trên bên phải -->
-            <div class="absolute -top-3 -right-6 sm:-right-8 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-cyan-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-2 z-20 hover:scale-105 transition-transform">
+            <div class="absolute -top-3 -right-5 sm:-right-8 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-cyan-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-2 z-20 hover:scale-105 transition-transform">
               <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 flex-shrink-0"></span>
               <div class="text-left leading-tight">
                 <span class="text-[9px] sm:text-[10px] uppercase font-bold text-cyan-200 block">Vùng II</span>
@@ -252,7 +255,7 @@
             </div>
 
             <!-- Vùng III: Góc dưới bên trái -->
-            <div class="absolute -bottom-5 -left-7 sm:-left-9 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-emerald-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-3 z-20 hover:scale-105 transition-transform">
+            <div class="absolute -bottom-3 sm:-bottom-5 -left-5 sm:-left-9 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-emerald-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-3 z-20 hover:scale-105 transition-transform">
               <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 flex-shrink-0"></span>
               <div class="text-left leading-tight">
                 <span class="text-[9px] sm:text-[10px] uppercase font-bold text-emerald-200 block">Vùng III</span>
@@ -261,7 +264,7 @@
             </div>
 
             <!-- Vùng IV: Góc dưới bên phải -->
-            <div class="absolute -bottom-10 -right-10 sm:-right-7 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-lime-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-4 z-20 hover:scale-105 transition-transform">
+            <div class="absolute -bottom-6 sm:-bottom-10 -right-6 sm:-right-7 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-lime-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-4 z-20 hover:scale-105 transition-transform">
               <span class="w-2.5 h-2.5 rounded-full bg-lime-400 flex-shrink-0"></span>
               <div class="text-left leading-tight">
                 <span class="text-[9px] sm:text-[10px] uppercase font-bold text-lime-200 block">Vùng IV</span>
@@ -333,7 +336,6 @@
         <!-- Trục hoành chú thích thời gian -->
         <div class="min-w-[760px] flex justify-around text-center pt-3 text-xs sm:text-sm font-extrabold text-brand-gold tracking-wide">
           <div class="w-28">1-1-2020</div>
-          <div class="w-28">1-1-2021</div>
           <div class="w-28">1-7-2022</div>
           <div class="w-28">1-7-2024</div>
           <div class="w-28">1-1-2026</div>
@@ -727,10 +729,6 @@
     const historicalWageData = [
       {
         date: "01/01/2020",
-        values: { "Vùng I": 4420000, "Vùng II": 3920000, "Vùng III": 3430000, "Vùng IV": 3070000 }
-      },
-      {
-        date: "01/01/2021",
         values: { "Vùng I": 4420000, "Vùng II": 3920000, "Vùng III": 3430000, "Vùng IV": 3070000 }
       },
       {
