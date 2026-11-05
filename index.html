@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ========================================================
+       SEO VÀ METADATA CƠ BẢN
+  ======================================================== -->
+  <title>MỨC LƯƠNG TỐI THIỂU VÙNG ÁP DỤNG TỪ NGÀY 1-1-2027 | Infographic Tương Tác</title>
+  <meta name="description" content="Infographic tương tác tuyên truyền Mức lương tối thiểu vùng áp dụng từ ngày 01/01/2027 theo Nghị định 399/2026/NĐ-CP">
+  <meta property="og:title" content="MỨC LƯƠNG TỐI THIỂU VÙNG ÁP DỤNG TỪ NGÀY 1-1-2027 | Infographic Tương Tác">
+  <meta property="og:description" content="Infographic tương tác tuyên truyền Mức lương tối thiểu vùng áp dụng từ ngày 01/01/2027 theo Nghị định 399/2026/NĐ-CP">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ========================================================
+       CDN: TAILWIND CSS, GOOGLE FONTS, FONT AWESOME ICONS
+  ======================================================== -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- ========================================================
+       CẤU HÌNH BẢNG MÀU THIẾT KẾ TAILWIND (KHÔNG AI HÓA, SANG TRỌNG)
+  ======================================================== -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              teal: '#00BFA5',
+              darkTeal: '#00897B',
+              bgTeal: '#00C9A7',
+              mint: '#E0F7F4',
+              gold: '#FFB800',
+              goldDark: '#D48800',
+              amber: '#FF9800',
+              deepGreen: '#004D40',
+              cardBg: '#053e37',
+              softCream: '#FFFDF0',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- ========================================================
+       CSS NỘI BỘ: HIỆU ỨNG MOTION, GLASSMORPHISM, CUỘN TRANG
+  ======================================================== -->
+  <style>
+    /* Smooth Scroll toàn trang */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: radial-gradient(130% 100% at 50% 0%, #02d4b4 0%, #009886 50%, #006054 100%);
+      color: #ffffff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Đổ bóng vàng kim phát sáng */
+    .glow-gold {
+      box-shadow: 0 10px 30px -5px rgba(255, 184, 0, 0.45);
+    }
+    .text-glow-gold {
+      text-shadow: 0 2px 14px rgba(255, 215, 0, 0.6);
+    }
+
+    /* Hiệu ứng kính mờ (Glassmorphism) */
+    .card-glass {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .card-glass-dark {
+      background: rgba(0, 48, 42, 0.65);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(0, 230, 195, 0.25);
+    }
+
+    /* Tùy chỉnh thanh cuộn trang hiện đại */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 40, 35, 0.4);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #FFB800;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #FFA000;
+    }
+
+    /* Hiệu ứng nhịp đập phát sáng (Pulse Glow) */
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(255,184,0,0.6)); }
+      50% { transform: scale(1.03); filter: drop-shadow(0 0 22px rgba(255,184,0,0.85)); }
+    }
+    .pulse-glow {
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    /* Hiệu ứng trôi bồng bềnh 4 Mini Floating Badges */
+    @keyframes float1 { 0%, 100% { transform: translateY(0px) rotate(-1deg); } 50% { transform: translateY(-7px) rotate(1deg); } }
+    @keyframes float2 { 0%, 100% { transform: translateY(0px) rotate(1deg); } 50% { transform: translateY(7px) rotate(-1deg); } }
+    @keyframes float3 { 0%, 100% { transform: translateY(0px) rotate(-2deg); } 50% { transform: translateY(-6px) rotate(0deg); } }
+    @keyframes float4 { 0%, 100% { transform: translateY(0px) rotate(2deg); } 50% { transform: translateY(8px) rotate(-1deg); } }
+    .animate-float-1 { animation: float1 4s ease-in-out infinite; }
+    .animate-float-2 { animation: float2 3.6s ease-in-out infinite 0.4s; }
+    .animate-float-3 { animation: float3 4.2s ease-in-out infinite 0.8s; }
+    .animate-float-4 { animation: float4 3.8s ease-in-out infinite 1.2s; }
+
+    /* Hiệu ứng thẻ tương tác: scale 1.05 & đổ bóng tỏa sáng neon vàng đồng */
+    .interactive-card, .quadrant-box {
+      transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+    }
+    .interactive-card:hover, .quadrant-box:hover {
+      transform: scale(1.05) translateY(-4px);
+      box-shadow: 0 0 25px rgba(255, 184, 0, 0.7), 0 0 50px rgba(255, 152, 0, 0.4), 0 16px 36px rgba(0, 0, 0, 0.45);
+      border-color: #FFB800 !important;
+      z-index: 25;
+    }
+
+    /* Hiệu ứng gợn sóng (Ripple Effect) khi click vào thẻ tương tác .interactive-card */
+    .ripple-wave {
+      position: absolute;
+      border-radius: 50%;
+      transform: scale(0);
+      animation: rippleAnim 0.75s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+      background: radial-gradient(circle, rgba(255, 235, 59, 0.55) 0%, rgba(255, 184, 0, 0.32) 45%, rgba(255, 255, 255, 0) 72%);
+      pointer-events: none;
+    }
+    @keyframes rippleAnim {
+      0% {
+        transform: scale(0);
+        opacity: 0.9;
+      }
+      55% {
+        opacity: 0.55;
+      }
+      100% {
+        transform: scale(3.5);
+        opacity: 0;
+      }
+    }
+
+    /* Highlight từ khóa tìm kiếm */
+    mark.highlight {
+      background-color: #FDE047;
+      color: #004D40;
+      font-weight: 800;
+      padding: 0.15rem 0.35rem;
+      border-radius: 0.25rem;
+    }
+  </style>
+</head>
+<body class="selection:bg-brand-gold selection:text-brand-deepGreen">
+
+  <!-- ========================================================
+       SECTION HERO: TỶ LỆ 16:9 - TITLE & HIỆU ỨNG TIỀN VÀNG RƠI TÍCH TỤ
+  ======================================================== -->
+  <section id="hero" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-10">
+    <!-- Khung 16:9 Container chuẩn tỉ lệ đồ họa infographic -->
+    <div class="relative w-full aspect-[16/9] min-h-[460px] sm:min-h-[520px] rounded-3xl overflow-hidden card-glass border border-white/30 shadow-2xl flex flex-col justify-center p-6 sm:p-10 lg:p-14">
+      
+      <!-- Canvas hiệu ứng đồng tiền rơi tích tụ đầy khung hình -->
+      <canvas id="coinCanvas" class="absolute inset-0 w-full h-full pointer-events-none z-0"></canvas>
+
+      <!-- Watermark họa tiết tiền xu lớn chìm phía sau -->
+      <div class="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full opacity-10 pointer-events-none flex items-center justify-center">
+        <i class="fa-solid fa-circle-dollar-to-slot text-[320px] text-brand-gold"></i>
+      </div>
+
+      <!-- Nội dung trung tâm Hero (z-10) -->
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 h-full items-center">
+        <!-- Cột trái: Tiêu đề tuyên truyền chính thống -->
+        <div class="lg:col-span-7 flex flex-col justify-center space-y-4 sm:space-y-6 text-left">
+          
+          
+
+          <div class="space-y-4 sm:space-y-5">
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight text-white drop-shadow-md lg:leading-snug pl-5 sm:pl-9 lg:pl-14">
+              MỨC LƯƠNG <br>TỐI THIỂU VÙNG
+            </h1>
+            <h2 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-brand-gold text-glow-gold drop-shadow-lg lg:leading-snug pl-5 sm:pl-9 lg:pl-14">
+              ÁP DỤNG TỪ <br> NGÀY 1-1-2027
+            </h2>
+          </div>
+        </div>
+
+        <!-- Cột phải: Minh họa đồng xu 3D & Badge tích lũy thu nhập -->
+        <div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+          <!-- Huy hiệu đồng tiền vàng 3D trung tâm -->
+          <div class="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 pulse-glow flex items-center justify-center">
+            <!-- Vòng hào quang -->
+            <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-brand-gold to-yellow-200 blur-2xl opacity-40"></div>
+            
+            <!-- Đồng xu 3D lớn -->
+            <div class="relative w-44 h-44 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-[#FFE082] via-[#FFB300] to-[#E65100] border-4 sm:border-8 border-yellow-200 shadow-2xl flex items-center justify-center transform hover:rotate-12 transition-transform duration-500 cursor-pointer">
+              <div class="w-36 h-36 sm:w-48 sm:h-48 rounded-full border-4 border-dashed border-amber-200/80 flex items-center justify-center bg-gradient-to-tr from-[#FFA000] to-[#FFD54F] shadow-inner">
+                <span class="text-6xl sm:text-8xl font-black text-white drop-shadow-[0_4px_10px_rgba(180,83,9,0.8)]">vnđ</span>
+              </div>
+            </div>
+
+            <!-- 4 Mini floating badges 4 Vùng bố trí nổi xung quanh đồng xu -->
+            <!-- Vùng I: Góc trên bên trái -->
+            <div class="absolute -top-8 -left-11 sm:-left-15 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-indigo-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-1 z-20 hover:scale-105 transition-transform">
+              <span class="w-2.5 h-2.5 rounded-full bg-indigo-400 flex-shrink-0"></span>
+              <div class="text-left leading-tight">
+                <span class="text-[9px] sm:text-[10px] uppercase font-bold text-indigo-200 block">Vùng I</span>
+                <span class="text-xs sm:text-sm font-black text-yellow-300">5.700.000 đồng</span>
+              </div>
+            </div>
+
+            <!-- Vùng II: Góc trên bên phải -->
+            <div class="absolute -top-3 -right-6 sm:-right-8 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-cyan-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-2 z-20 hover:scale-105 transition-transform">
+              <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 flex-shrink-0"></span>
+              <div class="text-left leading-tight">
+                <span class="text-[9px] sm:text-[10px] uppercase font-bold text-cyan-200 block">Vùng II</span>
+                <span class="text-xs sm:text-sm font-black text-yellow-300">5.080.000 đồng</span>
+              </div>
+            </div>
+
+            <!-- Vùng III: Góc dưới bên trái -->
+            <div class="absolute -bottom-5 -left-7 sm:-left-9 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-emerald-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-3 z-20 hover:scale-105 transition-transform">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 flex-shrink-0"></span>
+              <div class="text-left leading-tight">
+                <span class="text-[9px] sm:text-[10px] uppercase font-bold text-emerald-200 block">Vùng III</span>
+                <span class="text-xs sm:text-sm font-black text-yellow-300">4.450.000 đồng</span>
+              </div>
+            </div>
+
+            <!-- Vùng IV: Góc dưới bên phải -->
+            <div class="absolute -bottom-10 -right-10 sm:-right-7 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-brand-deepGreen/95 border border-lime-400/60 text-white shadow-xl flex items-center gap-2 backdrop-blur-md animate-float-4 z-20 hover:scale-105 transition-transform">
+              <span class="w-2.5 h-2.5 rounded-full bg-lime-400 flex-shrink-0"></span>
+              <div class="text-left leading-tight">
+                <span class="text-[9px] sm:text-[10px] uppercase font-bold text-lime-200 block">Vùng IV</span>
+                <span class="text-xs sm:text-sm font-black text-yellow-300">4.040.000 đồng</span>
+              </div>
+            </div>
+
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       SECTION 1: MỨC LƯƠNG TỐI THIỂU TỪ NĂM 2020 ĐẾN NAY
+       Sơ đồ cột đứng, trục nằm ngang là thời gian, cột màu vàng, 
+       chữ số màu xanh lá, tooltip khi hover, click cột nào nổi cùng vùng ở các năm
+  ======================================================== -->
+  <section id="section1" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="card-glass-dark rounded-3xl p-6 sm:p-10 border border-emerald-400/30 shadow-2xl">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-8">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold uppercase text-white tracking-tight leading-relaxed lg:leading-normal">
+          MỨC LƯƠNG TỐI THIỂU <br> TỪ NĂM 2020 ĐẾN NAY
+        </h2>
+      </div>
+
+      <!-- Vùng Selection Buttons (Filter highlight nhanh) -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8">
+        <button onclick="highlightRegion('all')" id="btn-region-all" class="region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-extrabold transition-all bg-brand-gold text-brand-deepGreen shadow">
+          Hiện tất cả
+        </button>
+        <button onclick="highlightRegion('Vùng I')" id="btn-region-Vùng I" class="region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20">
+          Vùng I
+        </button>
+        <button onclick="highlightRegion('Vùng II')" id="btn-region-Vùng II" class="region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20">
+          Vùng II
+        </button>
+        <button onclick="highlightRegion('Vùng III')" id="btn-region-Vùng III" class="region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20">
+          Vùng III
+        </button>
+        <button onclick="highlightRegion('Vùng IV')" id="btn-region-Vùng IV" class="region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20">
+          Vùng IV
+        </button>
+      </div>
+
+      <!-- Container Biểu Đồ Cột Đứng -->
+      <div class="relative w-full overflow-x-auto pb-4">
+        <div class="min-w-[760px] h-[480px] pt-12 pb-16 px-4 flex items-end justify-between border-b-2 border-brand-gold/60 relative">
+          
+          <!-- Lưới đường mức lương tham chiếu ngang (Guide lines) -->
+          <div class="absolute inset-x-0 bottom-16 h-[380px] pointer-events-none flex flex-col justify-between opacity-20">
+            <div class="border-b border-white flex items-center justify-between text-[11px] text-white"><span></span></div>
+            <div class="border-b border-white flex items-center justify-between text-[11px] text-white"><span></span></div>
+            <div class="border-b border-white flex items-center justify-between text-[11px] text-white"><span></span></div>
+            <div class="border-b border-white flex items-center justify-between text-[11px] text-white"><span></span></div>
+          </div>
+
+          <!-- Dynamic Render Bar Chart Groups theo từng mốc thời gian -->
+          <div id="chartTimelineContainer" class="relative z-10 w-full flex items-end justify-around h-[380px]"></div>
+
+        </div>
+
+        <!-- Trục hoành chú thích thời gian -->
+        <div class="min-w-[760px] flex justify-around text-center pt-3 text-xs sm:text-sm font-extrabold text-brand-gold tracking-wide">
+          <div class="w-28">1-1-2020</div>
+          <div class="w-28">1-1-2021</div>
+          <div class="w-28">1-7-2022</div>
+          <div class="w-28">1-7-2024</div>
+          <div class="w-28">1-1-2026</div>
+          <div class="w-28 text-yellow-300 font-black">1-1-2027 </div>
+        </div>
+      </div>
+
+      <!-- Legend & Ghi chú kỹ thuật -->
+      <div class="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs sm:text-sm">
+        
+        <div class="text-emerald-200 italic">
+          * Đơn vị: Đồng/tháng
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       SECTION 2: MỨC LƯƠNG TỐI THIỂU NĂM 2027
+       Gồm cả lương tháng & giờ. Rê chuột vào vùng nào sẽ phóng to hơn.
+       Kết hợp tác phẩm isometric 3D 4 bậc thang tăng dần và mũi tên phát triển.
+  ======================================================== -->
+  <section id="section2" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="card-glass rounded-3xl p-6 sm:p-10 lg:p-12 border border-white/30 shadow-2xl relative overflow-hidden">
+      <!-- Header Section 2 -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl font-black uppercase text-white tracking-tight leading-tight">
+          MỨC LƯƠNG TỐI THIỂU NĂM 2027
+        </h2>
+      </div>
+
+      <!-- Main Layout: 4 Cards bên trái & 3D Isometric Steps Artwork bên phải -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        
+        <!-- Left: 4 Thẻ Phân Vùng Lương Tháng & Giờ (Interactive Hover Zoom) -->
+        <div class="lg:col-span-7 flex flex-col space-y-4">
+          
+          <!-- Bậc 4: VÙNG I - Indigo / Deep Violet -->
+          <div data-region="Vùng I" class="quadrant-box interactive-card group relative flex items-stretch rounded-2xl bg-gradient-to-r from-[#2c2f7c] to-[#3a3f99] border-2 border-[#5c64cf]/60 shadow-xl p-4 sm:p-5 cursor-pointer">
+            <div class="flex flex-col items-center justify-center pr-4 sm:pr-6 border-r border-white/20 min-w-[95px] sm:min-w-[125px]">
+              <span class="text-2xl sm:text-3xl font-black text-white tracking-tight">VÙNG I</span>
+            </div>
+            <div class="flex-1 pl-4 sm:pl-6 flex flex-col justify-center">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
+                <span class="text-xl sm:text-2xl font-black text-yellow-300 drop-shadow">5.700.000 đồng/tháng</span>
+                <span class="text-xs sm:text-sm font-bold text-indigo-100 bg-black/30 px-3 py-0.5 rounded-full border border-white/10">
+                  <i class="fa-regular fa-clock mr-1 text-yellow-300"></i> 27.400 đồng/giờ
+                </span>
+              </div>
+            </div>
+            <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-[#3a3f99] rotate-45 border-t-2 border-r-2 border-[#5c64cf]/60 hidden lg:block"></div>
+          </div>
+
+          <!-- Bậc 3: VÙNG II - Deep Cyan / Teal Blue -->
+          <div data-region="Vùng II" class="quadrant-box interactive-card group relative flex items-stretch rounded-2xl bg-gradient-to-r from-[#00728f] to-[#0096b7] border-2 border-[#38bdf8]/60 shadow-xl p-4 sm:p-5 cursor-pointer">
+            <div class="flex flex-col items-center justify-center pr-4 sm:pr-6 border-r border-white/20 min-w-[95px] sm:min-w-[125px]">
+              <span class="text-2xl sm:text-3xl font-black text-white tracking-tight">VÙNG II</span>
+            </div>
+            <div class="flex-1 pl-4 sm:pl-6 flex flex-col justify-center">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
+                <span class="text-xl sm:text-2xl font-black text-yellow-300 drop-shadow">5.080.000 đồng/tháng</span>
+                <span class="text-xs sm:text-sm font-bold text-cyan-100 bg-black/30 px-3 py-0.5 rounded-full border border-white/10">
+                  <i class="fa-regular fa-clock mr-1 text-yellow-300"></i> 24.400 đồng/giờ
+                </span>
+              </div>
+            </div>
+            <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-[#0096b7] rotate-45 border-t-2 border-r-2 border-[#38bdf8]/60 hidden lg:block"></div>
+          </div>
+
+          <!-- Bậc 2: VÙNG III - Bright Emerald Green -->
+          <div data-region="Vùng III" class="quadrant-box interactive-card group relative flex items-stretch rounded-2xl bg-gradient-to-r from-[#008f72] to-[#00b58e] border-2 border-[#34d399]/60 shadow-xl p-4 sm:p-5 cursor-pointer">
+            <div class="flex flex-col items-center justify-center pr-4 sm:pr-6 border-r border-white/20 min-w-[95px] sm:min-w-[125px]">
+              <span class="text-2xl sm:text-3xl font-black text-white tracking-tight">VÙNG III</span>
+            </div>
+            <div class="flex-1 pl-4 sm:pl-6 flex flex-col justify-center">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
+                <span class="text-xl sm:text-2xl font-black text-yellow-300 drop-shadow">4.450.000 đồng/tháng</span>
+                <span class="text-xs sm:text-sm font-bold text-emerald-100 bg-black/30 px-3 py-0.5 rounded-full border border-white/10">
+                  <i class="fa-regular fa-clock mr-1 text-yellow-300"></i> 21.400 đồng/giờ
+                </span>
+              </div>
+            </div>
+            <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-[#00b58e] rotate-45 border-t-2 border-r-2 border-[#34d399]/60 hidden lg:block"></div>
+          </div>
+
+          <!-- Bậc 1: VÙNG IV - Lime Green / Nền tảng -->
+          <div data-region="Vùng IV" class="quadrant-box interactive-card group relative flex items-stretch rounded-2xl bg-gradient-to-r from-[#5ea500] to-[#78be0c] border-2 border-[#a3e635]/60 shadow-xl p-4 sm:p-5 cursor-pointer">
+            <div class="flex flex-col items-center justify-center pr-4 sm:pr-6 border-r border-white/20 min-w-[95px] sm:min-w-[125px]">
+              <span class="text-2xl sm:text-3xl font-black text-white tracking-tight">VÙNG IV</span>
+            </div>
+            <div class="flex-1 pl-4 sm:pl-6 flex flex-col justify-center">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
+                <span class="text-xl sm:text-2xl font-black text-yellow-300 drop-shadow">4.040.000 đồng/tháng</span>
+                <span class="text-xs sm:text-sm font-bold text-lime-100 bg-black/30 px-3 py-0.5 rounded-full border border-white/10">
+                  <i class="fa-regular fa-clock mr-1 text-yellow-300"></i> 19.400 đồng/giờ
+                </span>
+              </div>
+            </div>
+            <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-[#78be0c] rotate-45 border-t-2 border-r-2 border-[#a3e635]/60 hidden lg:block"></div>
+          </div>
+
+        </div>
+
+        <!-- Right: 3D Isometric Ascending Steps Vector Graphic -->
+        <div class="lg:col-span-5 flex flex-col items-center justify-center p-2 sm:p-4">
+          <div class="relative w-full max-w-[400px] aspect-[4/5] flex items-center justify-center">
+            
+            <svg class="w-full h-full drop-shadow-2xl" viewBox="0 0 460 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <!-- Lime Palette (Step IV) -->
+                <linearGradient id="step1Top" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#a3e635"></stop>
+                  <stop offset="100%" stop-color="#84cc16"></stop>
+                </linearGradient>
+                <linearGradient id="step1Left" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#65a30d"></stop>
+                  <stop offset="100%" stop-color="#4d7c0f"></stop>
+                </linearGradient>
+                <linearGradient id="step1Right" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#4d7c0f"></stop>
+                  <stop offset="100%" stop-color="#365314"></stop>
+                </linearGradient>
+
+                <!-- Teal Palette (Step III) -->
+                <linearGradient id="step2Top" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#34d399"></stop>
+                  <stop offset="100%" stop-color="#10b981"></stop>
+                </linearGradient>
+                <linearGradient id="step2Left" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#059669"></stop>
+                  <stop offset="100%" stop-color="#047857"></stop>
+                </linearGradient>
+                <linearGradient id="step2Right" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#047857"></stop>
+                  <stop offset="100%" stop-color="#064e3b"></stop>
+                </linearGradient>
+
+                <!-- Cyan Palette (Step II) -->
+                <linearGradient id="step3Top" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#38bdf8"></stop>
+                  <stop offset="100%" stop-color="#0ea5e9"></stop>
+                </linearGradient>
+                <linearGradient id="step3Left" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#0284c7"></stop>
+                  <stop offset="100%" stop-color="#0369a1"></stop>
+                </linearGradient>
+                <linearGradient id="step3Right" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#0369a1"></stop>
+                  <stop offset="100%" stop-color="#075985"></stop>
+                </linearGradient>
+
+                <!-- Indigo Palette (Step I & Arrow) -->
+                <linearGradient id="step4Top" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#818cf8"></stop>
+                  <stop offset="100%" stop-color="#6366f1"></stop>
+                </linearGradient>
+                <linearGradient id="step4Left" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#4f46e5"></stop>
+                  <stop offset="100%" stop-color="#4338ca"></stop>
+                </linearGradient>
+                <linearGradient id="step4Right" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#3730a3"></stop>
+                  <stop offset="100%" stop-color="#312e81"></stop>
+                </linearGradient>
+
+                <!-- Arrow Gradients -->
+                <linearGradient id="arrowFrontGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+                  <stop offset="0%" stop-color="#4f46e5"></stop>
+                  <stop offset="60%" stop-color="#6366f1"></stop>
+                  <stop offset="100%" stop-color="#a5b4fc"></stop>
+                </linearGradient>
+                <linearGradient id="arrowSideGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#312e81"></stop>
+                  <stop offset="100%" stop-color="#1e1b4b"></stop>
+                </linearGradient>
+
+                <!-- Filters -->
+                <filter id="glowArrow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+                  <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
+                </filter>
+              </defs>
+
+              <!-- AMBIENT BASE SHADOW -->
+              <ellipse cx="230" cy="495" rx="190" ry="38" fill="rgba(0,0,0,0.35)"></ellipse>
+
+              <!-- MŨI TÊN TĂNG TRƯỞNG PHÁT TRIỂN 3D -->
+              <g id="iso-arrow-up" filter="url(#glowArrow)">
+                <path d="M 320 20 L 375 75 L 350 75 L 350 250 L 320 230 L 320 60 Z" fill="url(#arrowSideGrad)"></path>
+                <path d="M 270 75 L 320 20 L 370 75 L 340 75 L 340 310 L 290 280 L 290 75 Z" fill="url(#arrowFrontGrad)"></path>
+                <path d="M 270 75 L 320 20 L 320 75 Z" fill="#ffffff" opacity="0.3"></path>
+              </g>
+
+              <!-- BẬC 4: VÙNG I -->
+              <g id="iso-step-4">
+                <path d="M 230 250 L 290 285 L 290 440 L 230 405 Z" fill="url(#step4Left)"></path>
+                <path d="M 290 285 L 380 232 L 380 390 L 290 440 Z" fill="url(#step4Right)"></path>
+                <path d="M 230 250 L 320 198 L 380 232 L 290 285 Z" fill="url(#step4Top)" stroke="#a5b4fc" stroke-width="1.5"></path>
+                <g transform="translate(305, 240) skewY(-15) skewX(20)">
+                  <ellipse cx="0" cy="2" rx="19" ry="11" fill="rgba(0,0,0,0.2)"></ellipse>
+                  <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">I</text>
+                </g>
+              </g>
+
+              <!-- BẬC 3: VÙNG II -->
+              <g id="iso-step-3">
+                <path d="M 170 300 L 230 335 L 230 470 L 170 435 Z" fill="url(#step3Left)"></path>
+                <path d="M 230 335 L 320 282 L 320 420 L 230 470 Z" fill="url(#step3Right)"></path>
+                <path d="M 170 300 L 260 248 L 320 282 L 230 335 Z" fill="url(#step3Top)" stroke="#7dd3fc" stroke-width="1.5"></path>
+                <g transform="translate(245, 290) skewY(-15) skewX(20)">
+                  <ellipse cx="0" cy="2" rx="22" ry="11" fill="rgba(0,0,0,0.2)"></ellipse>
+                  <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">II</text>
+                </g>
+              </g>
+
+              <!-- BẬC 2: VÙNG III -->
+              <g id="iso-step-2">
+                <path d="M 110 350 L 170 385 L 170 500 L 110 465 Z" fill="url(#step2Left)"></path>
+                <path d="M 170 385 L 260 332 L 260 450 L 170 500 Z" fill="url(#step2Right)"></path>
+                <path d="M 110 350 L 200 298 L 260 332 L 170 385 Z" fill="url(#step2Top)" stroke="#6ee7b7" stroke-width="1.5"></path>
+                <g transform="translate(185, 340) skewY(-15) skewX(20)">
+                  <ellipse cx="0" cy="2" rx="24" ry="11" fill="rgba(0,0,0,0.2)"></ellipse>
+                  <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="21" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">III</text>
+                </g>
+              </g>
+
+              <!-- BẬC 1: VÙNG IV -->
+              <g id="iso-step-1">
+                <path d="M 50 400 L 110 435 L 110 530 L 50 495 Z" fill="url(#step1Left)"></path>
+                <path d="M 110 435 L 200 382 L 200 480 L 110 530 Z" fill="url(#step1Right)"></path>
+                <path d="M 50 400 L 140 348 L 200 382 L 110 435 Z" fill="url(#step1Top)" stroke="#bef264" stroke-width="1.5"></path>
+                <g transform="translate(125, 390) skewY(-15) skewX(20)">
+                  <ellipse cx="0" cy="2" rx="22" ry="11" fill="rgba(0,0,0,0.2)"></ellipse>
+                  <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="21" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">IV</text>
+                </g>
+              </g>
+            </svg>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       SECTION 3: (BOX MÀU VÀNG NỔI BẬT)
+       Nghị định 399/2026/NĐ-CP có hiệu lực thi hành từ ngày 1 tháng 1 năm 2027
+  ======================================================== -->
+  <section id="section3" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#FFD54F] via-[#FFB300] to-[#FFA000] p-8 sm:p-12 text-brand-deepGreen shadow-2xl border-4 border-yellow-200 pulse-glow">
+      
+      <!-- Họa tiết con dấu pháp lý chìm phía sau -->
+      <div class="absolute -right-8 -bottom-8 opacity-15 pointer-events-none">
+        <i class="fa-solid fa-stamp text-[170px] text-brand-deepGreen"></i>
+      </div>
+
+      <div class="relative z-10 flex flex-col items-center justify-center text-center gap-4 sm:gap-6">
+        <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-brand-deepGreen text-yellow-300 flex items-center justify-center text-3xl sm:text-4xl shadow-xl flex-shrink-0">
+          <i class="fa-solid fa-gavel"></i>
+        </div>
+        <div class="text-center">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-brand-deepGreen leading-relaxed lg:leading-normal">
+            Nghị định 399/2026/NĐ-CP <br class="hidden sm:inline">có hiệu lực từ ngày 1 - 1 - 2027
+          </h2>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       SECTION 4: DANH MỤC ĐỊA BÀN ÁP DỤNG (BẢNG TRA CỨU TƯƠNG TÁC)
+       Cấu trúc:
+       - Ô địa điểm lớn ở giữa
+       - Cột 1: Vùng...
+       - Cột 2: Gồm… (100% nguyên văn, không tóm tắt, cắt xén)
+       - Cột 3: Lương tối thiểu tháng
+       - Cột 4: Lương tối thiểu giờ
+       - Thanh tìm kiếm theo địa điểm lớn (Tỉnh/TP) và địa điểm nhỏ (Phường/Xã/Huyện/Đặc khu)
+  ======================================================== -->
+  <section id="section4" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="bg-white/95 text-slate-800 rounded-3xl p-6 sm:p-10 border border-emerald-200/80 shadow-2xl backdrop-blur-xl">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-8">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black uppercase text-brand-deepGreen tracking-tight leading-relaxed lg:leading-normal">
+          DANH MỤC ĐỊA BÀN ÁP DỤNG <br>MỨC LƯƠNG TỐI THIỂU
+        </h2>
+      </div>
+
+      <!-- Khung Thanh Điều Khiển Tìm Kiếm và Bộ Lọc Thông Minh (Gọn gàng & Logic) -->
+      <div class="bg-gradient-to-r from-emerald-50 via-teal-50/60 to-emerald-50 p-3 sm:p-4 rounded-2xl border border-emerald-200/90 mb-6 shadow-xs">
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          
+          <!-- Tìm kiếm Tỉnh / Thành phố -->
+          <div class="relative flex-1">
+            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-emerald-600 text-sm"></i>
+            <input type="text" id="searchProvinceInput" placeholder="Tìm kiếm Tỉnh / Thành phố (VD: Hà Nội, Hải Phòng...)" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-emerald-300/80 text-slate-800 placeholder-slate-400 focus:outline-none focus:border-emerald-600 focus:ring-2 focus:ring-emerald-500/20 text-xs sm:text-sm font-medium shadow-xs">
+          </div>
+
+          <!-- Lọc theo Vùng (I, II, III, IV) -->
+          <div class="w-full sm:w-60 flex-shrink-0">
+            <select id="filterRegionSelect" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-emerald-300/80 text-slate-800 focus:outline-none focus:border-emerald-600 text-xs sm:text-sm font-semibold shadow-xs">
+              <option value="all">Tất cả Vùng (I, II, III, IV)</option>
+              <option value="Vùng I">Vùng I (5.700.000 đ)</option>
+              <option value="Vùng II">Vùng II (5.080.000 đ)</option>
+              <option value="Vùng III">Vùng III (4.450.000 đ)</option>
+              <option value="Vùng IV">Vùng IV (4.040.000 đ)</option>
+            </select>
+          </div>
+
+          <!-- Nút Đặt lại bộ lọc -->
+          <button onclick="resetSearch()" title="Đặt lại bộ lọc" class="px-4 py-2.5 rounded-xl bg-white hover:bg-emerald-100/70 border border-emerald-300/80 text-emerald-800 font-bold text-xs sm:text-sm shadow-xs flex items-center justify-center gap-1.5 transition-all flex-shrink-0 whitespace-nowrap">
+            <i class="fa-solid fa-rotate-left text-emerald-600"></i>
+            <span>Đặt lại</span>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Gợi ý vuốt ngang trên thiết bị di động -->
+      <div class="flex items-center justify-between md:hidden mb-2 px-1 text-[11px] text-emerald-800 font-semibold">
+        <span class="flex items-center gap-1.5">
+          <i class="fa-solid fa-arrows-left-right text-emerald-600"></i> Vuốt ngang để xem đủ 4 cột
+        </span>
+        <span class="text-slate-500 font-normal">Chạm để cuộn</span>
+      </div>
+
+      <!-- Bảng Danh Sách 34 Tỉnh / Thành Phố Thống Nhất -->
+      <div id="provinceTableWrapper" class="overflow-x-auto rounded-2xl border-2 border-emerald-200 shadow-md bg-white">
+        <table class="w-full min-w-[520px] md:min-w-full text-left border-collapse">
+          <thead class="sticky top-0 z-20 bg-brand-deepGreen text-white text-[11px] sm:text-xs md:text-sm font-extrabold uppercase tracking-wider border-b-2 border-emerald-300 shadow">
+            <tr>
+              <th class="px-2.5 py-3 sm:px-3 sm:py-4 w-20 sm:w-28 md:w-32 text-center border-r border-emerald-700/60 whitespace-nowrap">VÙNG</th>
+              <th class="px-3 py-3 sm:px-4 sm:py-4 border-r border-emerald-700/60 min-w-[130px]">ĐỊA ĐIỂM</th>
+              <th class="px-2.5 py-3 sm:px-3 sm:py-4 w-32 sm:w-44 md:w-52 text-center border-r border-emerald-700/60 leading-tight whitespace-nowrap">
+                LƯƠNG TỐI THIỂU<br>THÁNG
+              </th>
+              <th class="px-2.5 py-3 sm:px-3 sm:py-4 w-28 sm:w-36 md:w-44 text-center leading-tight whitespace-nowrap">
+                LƯƠNG TỐI THIỂU<br>GIỜ
+              </th>
+            </tr>
+          </thead>
+          <tbody id="provinceTableBody" class="divide-y divide-slate-200 text-sm text-slate-700"></tbody>
+        </table>
+        <div id="noResultBox" class="hidden text-center py-12 bg-emerald-50/30">
+          <i class="fa-solid fa-folder-open text-5xl text-emerald-600 mb-3 opacity-60"></i>
+          <h4 class="text-lg font-bold text-slate-800">Không tìm thấy địa bàn phù hợp</h4>
+          <p class="text-sm text-slate-500 mt-1">Vui lòng thử tìm từ khóa khác hoặc đặt lại bộ lọc.</p>
+          <button onclick="resetSearch()" class="mt-4 px-5 py-2.5 rounded-xl bg-brand-gold text-brand-deepGreen font-bold text-xs shadow-sm hover:bg-yellow-400 transition-colors">
+            Xem tất cả 34 tỉnh thành
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       FOOTER: BẢN QUYỀN VÀ THÔNG TIN PHÁP LÝ
+  ======================================================== -->
+  <footer class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-12">
+    <div class="card-glass-dark rounded-2xl px-5 py-4 border border-emerald-400/30 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm font-semibold text-emerald-100">
+      <div class="flex items-center gap-2">
+        
+        <span>Nguồn: Nghị định số 399/2026/NĐ-CP của Chính phủ</span>
+      </div>
+      <div class="flex items-center gap-2 text-yellow-300 font-bold bg-black/25 px-3 py-1.5 rounded-xl border border-white/10">
+        <i class="fa-regular fa-calendar-check text-brand-gold text-sm"></i>
+        <span>Ngày có hiệu lực: 1-1-2027</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========================================================
+       JAVASCRIPT: KHỞI TẠO BIẾN DỮ LIỆU, ANIMATION & TƯƠNG TÁC
+  ======================================================== -->
+  <script>
+    /* =========================================================
+       1. KHỞI TẠO BIẾN DỮ LIỆU LỊCH SỬ VÀ MỨC LƯƠNG
+    ========================================================= */
+    // Dữ liệu Section 1: Mức lương tối thiểu từ 2020 đến nay (nguyên văn 100%)
+    const historicalWageData = [
+      {
+        date: "01/01/2020",
+        values: { "Vùng I": 4420000, "Vùng II": 3920000, "Vùng III": 3430000, "Vùng IV": 3070000 }
+      },
+      {
+        date: "01/01/2021",
+        values: { "Vùng I": 4420000, "Vùng II": 3920000, "Vùng III": 3430000, "Vùng IV": 3070000 }
+      },
+      {
+        date: "01/7/2022",
+        values: { "Vùng I": 4680000, "Vùng II": 4160000, "Vùng III": 3640000, "Vùng IV": 3250000 }
+      },
+      {
+        date: "01/7/2024",
+        values: { "Vùng I": 4960000, "Vùng II": 4410000, "Vùng III": 3860000, "Vùng IV": 3450000 }
+      },
+      {
+        date: "01/01/2026",
+        values: { "Vùng I": 5310000, "Vùng II": 4730000, "Vùng III": 4140000, "Vùng IV": 3700000 }
+      },
+      {
+        date: "01/01/2027",
+        values: { "Vùng I": 5700000, "Vùng II": 5080000, "Vùng III": 4450000, "Vùng IV": 4040000 }
+      }
+    ];
+
+    // Dữ liệu mức lương 2027 theo Vùng (Section 2)
+    const wageRates2027 = {
+      "Vùng I": { month: "5.700.000 đồng/tháng", hour: "27.400 đồng/giờ", rawMonth: 5700000, rawHour: 27400 },
+      "Vùng II": { month: "5.080.000 đồng/tháng", hour: "24.400 đồng/giờ", rawMonth: 5080000, rawHour: 24400 },
+      "Vùng III": { month: "4.450.000 đồng/tháng", hour: "21.400 đồng/giờ", rawMonth: 4450000, rawHour: 21400 },
+      "Vùng IV": { month: "4.040.000 đồng/tháng", hour: "19.400 đồng/giờ", rawMonth: 4040000, rawHour: 19400 }
+    };
+
+    /* =========================================================
+       2. DỮ LIỆU ĐỊA BÀN 34 TỈNH THÀNH (SECTION 4 - NGUYÊN VĂN 100%)
+       Tuyệt đối không sửa đổi, không viết tắt, không tóm tắt hay thêm bớt.
+    ========================================================= */
+    const provinceData = [
+      {
+        id: 1,
+        name: "1. Thành phố Hà Nội",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường Hoàn Kiếm, Cửa Nam, Ba Đình, Ngọc Hà, Giảng Võ, Hai Bà Trưng, Vĩnh Tuy, Bạch Mai, Đống Đa, Kim Liên, Văn Miếu - Quốc Tử Giám, Láng, Ô Chợ Dừa, Hồng Hà, Lĩnh Nam, Hoàng Mai, Vĩnh Hưng, Tương Mai, Định Công, Hoàng Liệt, Yên Sở, Thanh Xuân, Khương Đình, Phương Liệt, Cầu Giấy, Nghĩa Đô, Yên Hoà, Tây Hồ, Phú Thượng, Tây Tựu, Phú Diễn, Xuân Đỉnh, Đông Ngạc, Thượng Cát, Từ Liêm, Xuân Phương, Tây Mỗ, Đại Mỗ, Long Biên, Bồ Đề, Việt Hưng, Phúc Lợi, Hà Đông, Dương Nội, Yên Nghĩa, Phú Lương, Kiến Hưng, Thanh Liệt, Chương Mỹ, Sơn Tây, Tùng Thiện và các xã Thanh Trì, Đại Thanh, Nam Phù, Ngọc Hồi, Thượng Phúc, Thường Tín, Chương Dương, Hồng Vân, Phú Xuyên, Thanh Oai, Bình Minh, Tam Hưng, Dân Hòa, Phú Nghĩa, Xuân Mai, Trần Phú, Hoà Phú, Quảng Bị, Yên Bài, Đoài Phương, Thạch Thất, Hạ Bằng, Tây Phương, Hoà Lạc, Yên Xuân, Quốc Oai, Hưng Đạo, Kiều Phú, Phú Cát, Hoài Đức, Dương Hoà, Sơn Đồng, An Khánh, Gia Lâm, Thuận An, Bát Tràng, Phù Đổng, Thư Lâm, Đông Anh, Phúc Thịnh, Thiên Lộc, Vĩnh Thanh, Mê Linh, Yên Lãng, Tiến Thắng, Quang Minh, Sóc Sơn, Đa Phúc, Nội Bài, Trung Giã, Kim Anh, Ô Diên, Liên Minh."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: "2. Tỉnh Cao Bằng",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Thục Phán, Nùng Trí Cao, Tân Giang."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "3. Tỉnh Tuyên Quang",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Mỹ Lâm, Minh Xuân, Nông Tiến, An Tường, Bình Thuận, Hà Giang 1, Hà Giang 2 và xã Ngọc Đường."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 4,
+        name: "4. Tỉnh Điện Biên",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Điện Biên Phủ, Mường Thanh và xã Mường Phăng, Nà Tấu."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 5,
+        name: "5. Tỉnh Lai Châu",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Tân Phong, Đoàn Kết."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 6,
+        name: "6. Tỉnh Sơn La",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Tô Hiệu, Chiềng An, Chiềng Cơi, Chiềng Sinh."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 7,
+        name: "7. Tỉnh Lào Cai",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Cam Đường, Lào Cai và các xã Cốc San, Hợp Thành, Gia Phú."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Văn Phú, Yên Bái, Nam Cường, Âu Lâu, Sa Pa và các xã Phong Hải, Xuân Quang, Bảo Thắng, Tằng Loỏng, Mường Bo, Bản Hồ, Tả Phìn, Tả Van, Ngũ Chỉ Sơn."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 8,
+        name: "8. Tỉnh Thái Nguyên",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Phan Đình Phùng, Linh Sơn, Tích Lương, Gia Sàng, Quyết Thắng, Quan Triều, Phổ Yên, Vạn Xuân, Trung Thành, Phúc Thuận, Sông Công, Bá Xuyên, Bách Quang và các xã Tân Cương, Đại Phúc, Thành Công."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Đức Xuân, Bắc Kạn và các xã Đại Từ, Đức Lương, Phú Thịnh, La Bằng, Phú Lạc, An Khánh, Quân Chu, Vạn Phú, Phú Xuyên, Phú Bình, Tân Thành, Điềm Thụy, Kha Sơn, Tân Khánh, Đồng Hỷ, Quang Sơn, Trại Cau, Nam Hòa, Văn Hán, Văn Lăng, Phú Lương, Vô Tranh, Yên Trạch, Hợp Thành, Phong Quang."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 9,
+        name: "9. Tỉnh Lạng Sơn",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Tam Thanh, Lương Văn Tri, Kỳ Lừa, Đông Kinh."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 10,
+        name: "10. Thành phố Quảng Ninh",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường An Sinh, Đông Triều, Bình Khê, Mạo Khê, Hoàng Quế, Yên Tử, Vàng Danh, Uông Bí, Đông Mai, Hiệp Hoà, Quảng Yên, Hà An, Phong Cốc, Liên Hoà, Tuần Châu, Việt Hưng, Bãi Cháy, Hà Tu, Hà Lầm, Cao Xanh, Hồng Gai, Hạ Long, Hoành Bồ, Móng Cái 1, Móng Cái 2, Móng Cái 3, Mông Dương, Quang Hanh, Cẩm Phả, Cửa Ông và các xã Quảng La, Thống Nhất, Hải Sơn, Hải Ninh, Vĩnh Thực, Hải Hòa."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các xã Tiên Yên, Đầm Hà, Quảng Hà, Đường Hoa, Quảng Đức, Cái Chiên và đặc khu Vân Đồn."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 11,
+        name: "11. Thành phố Bắc Ninh",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Kinh Bắc, Võ Cường, Vũ Ninh, Hạp Lĩnh, Nam Sơn, Từ Sơn, Tam Sơn, Đồng Nguyên, Phù Khê, Thuận Thành, Mão Điền, Trạm Lộ, Trí Quả, Song Liễu, Ninh Xá, Quế Võ, Phương Liễu, Nhân Hoà, Đào Viên, Bồng Lai, Tự Lan, Việt Yên, Nếnh, Vân Hà, Bắc Giang, Đa Mai, Tiền Phong, Tân An, Yên Dũng, Tân Tiến, Cảnh Thuỵ và các xã Chi Lăng, Phù Lãng, Yên Phong, Văn Môn, Tam Giang, Yên Trung, Tam Đa, Tiên Du, Liên Bão, Tân Chi, Đại Đồng, Phật Tích, Gia Bình, Nhân Thắng, Đại Lai, Cao Đức, Đông Cứu, Lương Tài, Lâm Thao, Trung Chính, Trung Kênh, Đồng Việt."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã Lạng Giang, Mỹ Thái, Kép, Tân Dĩnh, Tiên Lục, Tân Yên, Ngọc Thiện, Nhã Nam, Phúc Hòa, Quang Trung, Hợp Thịnh, Hiệp Hòa, Hoàng Vân, Xuân Cẩm."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 12,
+        name: "12. Tỉnh Phú Thọ",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Việt Trì, Nông Trang, Thanh Miếu, Vân Phú, Vĩnh Phúc, Vĩnh Yên, Phúc Yên, Xuân Hòa, Hòa Bình, Kỳ Sơn, Tân Hòa, Thống Nhất và các xã Hy Cương, Yên Lạc, Tề Lỗ, Liên Châu, Tam Hồng, Nguyệt Đức, Bình Nguyên, Xuân Lãng, Bình Xuyên, Bình Tuyền, Lương Sơn, Cao Dương, Liên Sơn, Thịnh Minh."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Phong Châu, Phú Thọ, Âu Cơ và các xã Lâm Thao, Xuân Lũng, Phùng Nguyên, Bản Nguyên, Phù Ninh, Dân Chủ, Phú Mỹ, Trạm Thản, Bình Phú, Thanh Ba, Quảng Yên, Hoàng Cương, Đông Thành, Chí Tiên, Liên Minh, Tam Nông, Thọ Văn, Vạn Xuân, Hiền Quan, Tam Sơn, Sông Lô, Hải Lựu, Yên Lãng, Lập Thạch, Tiên Lữ, Thái Hòa, Liên Hòa, Hợp Lý, Sơn Đông, Tam Đảo, Đại Đình, Đạo Trù, Tam Dương, Hội Thịnh, Hoàng An, Tam Dương Bắc, Vĩnh Tường, Thổ Tang, Vĩnh Hưng, Vĩnh An, Vĩnh Phú, Vĩnh Thành."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 13,
+        name: "13. Thành phố Hải Phòng",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường Thuỷ Nguyên, Thiên Hương, Hoà Bình, Nam Triệu, Bạch Đằng, Lưu Kiếm, Lê Ích Mộc, Hồng Bàng, Hồng An, Ngô Quyền, Gia Viên, Lê Chân, An Biên, Hải An, Đông Hải, Kiến An, Phù Liễn, Nam Đồ Sơn, Đồ Sơn, Hưng Đạo, Dương Kinh, An Dương, An Hải, An Phong, Hải Dương, Lê Thanh Nghị, Việt Hoà, Thành Đông, Nam Đồng, Tân Hưng, Thạch Khôi, Tứ Minh, Ái Quốc, Chu Văn An, Chí Linh, Trần Hưng Đạo, Nguyễn Trãi, Trần Nhân Tông, Lê Đại Hành, Kinh Môn, Nguyễn Đại Năng, Trần Liễu, Bắc An Phụ, Phạm Sư Mạnh, Nhị Chiểu; các xã An Hưng, An Khánh, An Quang, An Trường, An Lão, Kiến Thuỵ, Kiến Minh, Kiến Hải, Kiến Hưng, Nghi Dương, Quyết Thắng, Tiên Lãng, Tân Minh, Tiên Minh, Chấn Hưng, Hùng Thắng, Vĩnh Bảo, Nguyễn Bỉnh Khiêm, Vĩnh Am, Vĩnh Hải, Vĩnh Hoà, Vĩnh Thuận, Vĩnh Thịnh, Việt Khê, Nam An Phụ, Nam Sách, Thái Tân, Hợp Tiến, Trần Phú, An Phú, Cẩm Giang, Cẩm Giàng, Tuệ Tĩnh, Mao Điền, Kẻ Sặt, Bình Giang, Đường An, Thượng Hồng, Gia Lộc, Yết Kiêu, Gia Phúc, Trường Tân, Tứ Kỳ, Tân Kỳ, Đại Sơn, Chí Minh, Lạc Phượng, Nguyên Giáp, Nguyễn Lương Bằng, Phú Thái, Lai Khê, An Thành, Kim Thành, Thanh Hà, Hà Tây, Hà Bắc, Hà Nam, Hà Đông, Ninh Giang, Vĩnh Lại, Khúc Thừa Dụ, Tân An, Hồng Châu, Thanh Miện, Bắc Thanh Miện, Nam Thanh Miện, Hải Hưng và đặc khu Cát Hải."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 14,
+        name: "14. Tỉnh Hưng Yên",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Phố Hiến, Sơn Nam, Hồng Châu, Mỹ Hào, Đường Hào, Thượng Hồng, Thái Bình, Trần Lãm, Trần Hưng Đạo, Trà Lý, Vũ Phúc và các xã Tân Hưng, Yên Mỹ, Việt Yên, Hoàn Long, Nguyễn Văn Linh, Như Quỳnh, Lạc Đạo, Đại Đồng, Nghĩa Trụ, Phụng Công, Văn Giang, Mễ Sở."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 15,
+        name: "15. Tỉnh Ninh Bình",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Tây Hoa Lư, Hoa Lư, Nam Hoa Lư, Đông Hoa Lư, Nam Định, Thiên Trường, Đông A, Vị Khê, Thành Nam, Trường Thi, Hồng Quang, Mỹ Lộc."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Tam Điệp, Yên Sơn, Trung Sơn, Yên Thắng, Hà Nam, Phủ Lý, Phù Vân, Châu Sơn, Liêm Tuyền, Duy Tiên, Duy Tân, Đồng Văn, Duy Hà, Tiên Sơn, Lê Hồ, Nguyễn Úy, Lý Thường Kiệt, Kim Thanh, Tam Chúc, Kim Bảng và các xã Gia Viễn, Đại Hoàng, Gia Hưng, Gia Phong, Gia Vân, Gia Trấn, Yên Khánh, Khánh Nhạc, Khánh Thiện, Khánh Hội, Khánh Trung, Nam Trực, Nam Minh, Nam Đồng, Nam Ninh, Nam Hồng, Minh Tân, Hiển Khánh, Vụ Bản, Liên Minh, Ý Yên, Yên Đồng, Yên Cường, Vạn Thắng, Vũ Dương, Tân Minh, Phong Doanh, Cổ Lễ, Ninh Giang, Cát Thành, Trực Ninh, Quang Hưng, Minh Thái, Ninh Cường, Xuân Trường, Xuân Hưng, Xuân Giang, Xuân Hồng, Hải Hậu, Hải Anh, Hải Tiến, Hải Hưng, Hải An, Hải Quang, Hải Xuân, Hải Thịnh, Giao Minh, Giao Hòa, Giao Thủy, Giao Phúc, Giao Hưng, Giao Bình, Giao Ninh, Đồng Thịnh, Nghĩa Hưng, Nghĩa Sơn, Hồng Phong, Quỹ Nhất, Nghĩa Lâm, Rạng Đông."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 16,
+        name: "16. Tỉnh Thanh Hóa",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Hạc Thành, Quảng Phú, Đông Quang, Đông Sơn, Đông Tiến, Hàm Rồng, Nguyệt Viên, Sầm Sơn, Nam Sầm Sơn, Bỉm Sơn, Quang Trung, Ngọc Sơn, Tân Dân, Hải Lĩnh, Tĩnh Gia, Đào Duy Từ, Hải Bình, Trúc Lâm, Nghi Sơn và các xã Trường Lâm, Các Sơn."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã Hà Trung, Tống Sơn, Hà Long, Hoạt Giang, Lĩnh Toại, Triệu Lộc, Đông Thành, Hậu Lộc, Hoa Lộc, Vạn Lộc, Nga Sơn, Nga Thắng, Hồ Vương, Tân Tiến, Nga An, Ba Đình, Hoằng Hóa, Hoằng Tiến, Hoằng Thanh, Hoằng Lộc, Hoằng Châu, Hoằng Sơn, Hoằng Phú, Hoằng Giang, Lưu Vệ, Quảng Yên, Quảng Ngọc, Quảng Ninh, Quảng Bình, Tiên Trang, Quảng Chính, Nông Cống, Thắng Lợi, Trung Chính, Trường Văn, Thăng Bình, Tượng Lĩnh, Công Chính, Thiệu Hóa, Thiệu Quang, Thiệu Tiến, Thiệu Toán, Thiệu Trung, Yên Định, Yên Trường, Yên Phú, Quý Lộc, Yên Ninh, Định Tân, Định Hòa, Thọ Xuân, Thọ Long, Xuân Hòa, Sao Vàng, Lam Sơn, Thọ Lập, Xuân Tín, Xuân Lập, Vĩnh Lộc, Tây Đô, Biện Thượng, Triệu Sơn, Thọ Bình, Thọ Ngọc, Thọ Phú, Hợp Tiến, An Nông, Tân Ninh, Đồng Tiến."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 17,
+        name: "17. Tỉnh Nghệ An",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Hoàng Mai, Tân Mai, Trường Vinh, Thành Vinh, Vinh Hưng, Vinh Phú, Vinh Lộc, Cửa Lò và các xã Hưng Nguyên, Yên Trung, Hưng Nguyên Nam, Lam Thành, Nghi Lộc, Phúc Lộc, Đông Lộc, Trung Lộc, Thần Lĩnh, Hải Lộc, Văn Kiều."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Quỳnh Mai, Thái Hòa, Tây Hiếu và các xã Diễn Châu, Đức Châu, Quảng Châu, Hải Châu, Tân Châu, An Châu, Minh Châu, Hùng Châu, Đô Lương, Bạch Ngọc, Văn Hiến, Bạch Hà, Thuần Trung, Lương Sơn, Vạn An, Nam Đàn, Đại Huệ, Thiên Nhẫn, Kim Liên, Nghĩa Đàn, Nghĩa Thọ, Nghĩa Lâm, Nghĩa Mai, Nghĩa Hưng, Nghĩa Khánh, Nghĩa Lộc, Quỳnh Lưu, Quỳnh Văn, Quỳnh Anh, Quỳnh Tam, Quỳnh Phú, Quỳnh Sơn, Quỳnh Thắng, Đông Hiếu, Yên Thành, Quan Thành, Hợp Minh, Vân Tụ, Vân Du, Quang Đồng, Giai Lạc, Bình Minh, Đông Thành."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 18,
+        name: "18. Tỉnh Hà Tĩnh",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Sông Trí, Hải Ninh, Hoành Sơn, Vũng Áng, Thành Sen, Trần Phú, Hà Huy Tập và các xã Thạch Lạc, Đồng Tiến, Thạch Khê, Cẩm Bình, Kỳ Hoa."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 19,
+        name: "19. Tỉnh Quảng Trị",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Đồng Hới, Đồng Thuận, Đồng Sơn, Đông Hà, Nam Đông Hà."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Quảng Trị, Ba Đồn, Bắc Gianh và các xã Nam Gianh, Nam Ba Đồn, Tân Gianh, Trung Thuần, Quảng Trạch, Hòa Trạch, Phú Trạch, Phong Nha, Bắc Trạch, Đông Trạch, Hoàn Lão, Bố Trạch, Nam Trạch, Quảng Ninh, Ninh Châu, Trường Ninh, Lệ Thủy, Cam Hồng, Sen Ngư, Tân Mỹ, Trường Phú, Lệ Ninh, Đồng Lê, Vĩnh Linh, Cửa Tùng, Bến Quan, Cửa Việt, Gio Linh, Cam Lộ, Khe Sanh, Lao Bảo, Triệu Phong, Hướng Hiệp, Diên Sanh."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 20,
+        name: "20. Thành phố Huế",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Thuận An, Hóa Châu, Mỹ Thượng, Vỹ Dạ, Thuận Hóa, An Cựu, Thủy Xuân, Kim Long, Hương An, Phú Xuân, Dương Nỗ."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Phong Điền, Phong Thái, Phong Dinh, Phong Phú, Phong Quảng, Hương Trà, Kim Trà, Hương Thuỷ, Phú Bài, Thanh Thủy và các xã Đan Điền, Quảng Điền, Bình Điền, Phú Vinh, Phú Hồ, Phú Vang, Vinh Lộc, Hưng Lộc, Lộc An, Phú Lộc, Chân Mây - Lăng Cô, Long Quảng, Nam Đông, Khe Tre."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 21,
+        name: "21. Thành phố Đà Nẵng",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Hải Châu, Hòa Cường, Thanh Khê, An Khê, An Hải, Sơn Trà, Ngũ Hành Sơn, Hòa Khánh, Hải Vân, Liên Chiểu, Cẩm Lệ, Hòa Xuân, Tam Kỳ, Quảng Phú, Hương Trà, Bàn Thạch, Hội An, Hội An Đông, Hội An Tây, Điện Bàn, Điện Bàn Đông, An Thắng, Điện Bàn Bắc và các xã Hòa Vang, Hòa Tiến, Bà Nà, Tân Hiệp, Điện Bàn Tây, Gò Nổi và đặc khu Hoàng Sa."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã Núi Thành, Tam Mỹ, Tam Anh, Đức Phú, Tam Xuân, Tam Hải, Tây Hồ, Chiên Đàn, Phú Ninh, Thăng Bình, Thăng An, Thăng Trường, Thăng Điền, Thăng Phú, Đồng Dương, Quế Sơn Trung, Quế Sơn, Xuân Phú, Nông Sơn, Quế Phước, Duy Nghĩa, Nam Phước, Duy Xuyên, Thu Bồn, Đại Lộc, Hà Nha, Thượng Đức, Vu Gia, Phú Thuận."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 22,
+        name: "22. Tỉnh Quảng Ngãi",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Trương Quang Trọng, Cẩm Thành, Nghĩa Lộ, Kon Tum, Đăk Cấm, Đăk Bla và các xã Tịnh Khê, An Phú, Bình Minh, Bình Chương, Bình Sơn, Vạn Tường, Đông Sơn, Trường Giang, Ba Gia, Sơn Tịnh, Thọ Phong, Ngọk Bay, Ia Chim, Đăk Rơ Wa, Đăk Pxi, Đăk Mar, Đăk Ui, Đăk Hà, Ngọk Réo."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 23,
+        name: "23. Tỉnh Gia Lai",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Quy Nhơn, Quy Nhơn Đông, Quy Nhơn Tây, Quy Nhơn Nam, Quy Nhơn Bắc và Pleiku."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Hội Phú, Thống Nhất, Diên Hồng, An Phú, Bình Định, An Nhơn, An Nhơn Đông, An Nhơn Nam, An Nhơn Bắc, Bồng Sơn, Hoài Nhơn, Tam Quan, Hoài Nhơn Đông, Hoài Nhơn Tây, Hoài Nhơn Nam, Hoài Nhơn Bắc và các xã Biển Hồ, Gào."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 24,
+        name: "24. Tỉnh Khánh Hòa",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Nha Trang, Bắc Nha Trang, Tây Nha Trang, Nam Nha Trang, Bắc Cam Ranh, Cam Ranh, Cam Linh, Ba Ngòi, Ninh Hòa, Đông Ninh Hòa, Hòa Thắng, Phan Rang, Đông Hải, Ninh Chử, Bảo An, Đô Vinh và các xã Nam Cam Ranh, Bắc Ninh Hòa, Tân Định, Nam Ninh Hòa, Tây Ninh Hòa, Hòa Trí, Thuận Bắc, Công Hải."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã Đại Lãnh, Tu Bông, Vạn Thắng, Vạn Ninh, Vạn Hưng, Diên Khánh, Diên Lạc, Diên Điền, Suối Hiệp, Diên Thọ, Diên Lâm, Cam Lâm, Suối Dầu, Cam Hiệp, Cam An, Ninh Phước, Phước Hữu, Phước Hậu, Phước Dinh, Ninh Hải, Xuân Hải, Vĩnh Hải, Ninh Sơn, Lâm Sơn, Anh Dũng, Mỹ Sơn, Thuận Nam, Cà Ná, Phước Hà."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 25,
+        name: "25. Tỉnh Đắk Lắk",
+        regions: [
+          {
+            region: "Vùng III",
+            included: "gồm các phường Buôn Ma Thuột, Tân An, Tân Lập, Xuân Đài, Sông Cầu, Thành Nhất, Ea Kao, Tuy Hòa, Phú Yên, Bình Kiến, Đông Hòa, Hòa Hiệp và các xã Hòa Phú, Xuân Thọ, Xuân Cảnh, Xuân Lộc, Hòa Xuân."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 26,
+        name: "26. Tỉnh Lâm Đồng",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Xuân Hương - Đà Lạt, Cam Ly - Đà Lạt, Lâm Viên - Đà Lạt, Xuân Trường - Đà Lạt, Lang Biang - Đà Lạt, 1 Bảo Lộc, 2 Bảo Lộc, 3 Bảo Lộc, B' Lao, Hàm Thắng, Bình Thuận, Mũi Né, Phú Thủy, Phan Thiết, Tiến Thành và xã Tuyên Quang."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường La Gi, Phước Hội, Bắc Gia Nghĩa, Nam Gia Nghĩa, Đông Gia Nghĩa và các xã Hiệp Thạnh, Đức Trọng, Tân Hội, Tà Hine, Tà Năng, Đinh Văn Lâm Hà, Di Linh, Hòa Ninh, Hòa Bắc, Đinh Trang Thượng, Bảo Thuận, Sơn Điền, Gia Hiệp, Tân Hải, Đông Giang, La Dạ, Hàm Thuận Bắc, Hàm Thuận, Hồng Sơn, Hàm Liêm, Hàm Thạnh, Hàm Kiệm, Tân Thành, Hàm Thuận Nam, Tân Lập, Ninh Gia."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường và đặc khu còn lại."
+          }
+        ]
+      },
+      {
+        id: 27,
+        name: "27. Thành phố Đồng Nai",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường Biên Hòa, Trấn Biên, Tam Hiệp, Long Bình, Trảng Dài, Hố Nai, Long Hưng, Bình Lộc, Bảo Vinh, Xuân Lập, Long Khánh, Hàng Gòn, Tân Triều, Phước Tân, Tam Phước, Bình Phước và các xã Đại Phước, Nhơn Trạch, Phước An, Phước Thái, Long Phước, Bình An, Long Thành, An Phước, An Viễn, Bình Minh, Trảng Bom, Bàu Hàm, Hưng Thịnh, Dầu Giây, Gia Kiệm, Thống Nhất, Xuân Đường, Xuân Đông, Xuân Định, Xuân Phú, Xuân Lộc, Xuân Hòa, Xuân Thành, Xuân Bắc, Trị An, Tân An, Phú Lý, Cẩm Mỹ, Định Quán, Tân Phú, Thuận Lợi."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các phường Minh Hưng, Chơn Thành, Đồng Xoài, Phước Long và các xã Xuân Quế, Sông Ray, La Ngà, Phú Vinh, Phú Hòa, Tà Lài, Nam Cát Tiên, Phú Lâm, Nha Bích, Tân Quan, Đồng Tâm, Tân Lợi, Đồng Phú, Đak Lua, Thanh Sơn, Tân Khai."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Bình Long, An Lộc, Phước Bình và các xã Tân Hưng, Minh Đức, Lộc Thành, Lộc Ninh, Lộc Hưng, Lộc Tấn, Lộc Thạnh, Lộc Quang, Tân Tiến, Bình Tân, Long Hà, Phú Riềng, Phú Trung."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 28,
+        name: "28. Thành phố Hồ Chí Minh",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường Sài Gòn, Tân Định, Bến Thành, Cầu Ông Lãnh, Bàn Cờ, Xuân Hoà, Nhiêu Lộc, Xóm Chiếu, Khánh Hội, Vĩnh Hội, Chợ Quán, An Đông, Chợ Lớn, Bình Tây, Bình Phú, Bình Tiên, Phú Lâm, Tân Thuận, Phú Thuận, Tân Mỹ, Tân Hưng, Chánh Hưng, Phú Định, Bình Đông, Diên Hồng, Vườn Lài, Hoà Hưng, Minh Phụng, Bình Thới, Hoà Bình, Phú Thọ, Đông Hưng Thuận, Trung Mỹ Tây, Tân Thới Hiệp, Thới An, An Phú Đông, An Lạc, Tân Tạo, Bình Tân, Bình Trị Đông, Bình Hưng Hoà, Gia Định, Bình Thạnh, Bình Lợi Trung, Thạnh Mỹ Tây, Bình Quới, Hạnh Thông, An Nhơn, Gò Vấp, An Hội Đông, Thông Tây Hội, An Hội Tây, Đức Nhuận, Cầu Kiệu, Phú Nhuận, Tân Sơn Hoà, Tân Sơn Nhất, Tân Hoà, Bảy Hiền, Tân Bình, Tân Sơn, Tây Thạnh, Tân Sơn Nhì, Phú Thọ Hoà, Tân Phú, Phú Thạnh, Hiệp Bình, Thủ Đức, Tam Bình, Linh Xuân, Tăng Nhơn Phú, Long Bình, Long Phước, Long Trường, Cát Lái, Bình Trưng, Phước Long, An Khánh, Đông Hoà, Dĩ An, Tân Đông Hiệp, An Phú, Bình Hoà, Lái Thiêu, Thuận An, Thuận Giao, Thủ Dầu Một, Phú Lợi, Chánh Hiệp, Bình Dương, Hoà Lợi, Thới Hoà, Phú An, Tây Nam, Long Nguyên, Bến Cát, Chánh Phú Hoà, Vĩnh Tân, Bình Cơ, Tân Uyên, Tân Hiệp, Tân Khánh, Vũng Tàu, Tam Thắng, Rạch Dừa, Phước Thắng, Tân Hải, Tân Phước, Phú Mỹ, Tân Thành, Bà Rịa, Long Hương, Tam Long và các xã Vĩnh Lộc, Tân Vĩnh Lộc, Bình Lợi, Tân Nhựt, Bình Chánh, Hưng Long, Bình Hưng, Củ Chi, Tân An Hội, Thái Mỹ, An Nhơn Tây, Nhuận Đức, Phú Hoà Đông, Bình Mỹ, Đông Thạnh, Hóc Môn, Xuân Thới Sơn, Bà Điểm, Nhà Bè, Hiệp Phước, Thường Tân, Bắc Tân Uyên, Phú Giáo, Phước Hoà, Phước Thành, An Long, Trừ Văn Thố, Bàu Bàng, Long Hoà, Thanh An, Dầu Tiếng, Minh Thạnh, Long Sơn, Châu Pha, Bình Khánh, An Thới Đông, Cần Giờ, Thạnh An, Kim Long, Châu Đức, Ngãi Giao, Nghĩa Thành, Long Hải, Long Điền và đặc khu Côn Đảo."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 29,
+        name: "29. Tỉnh Tây Ninh",
+        regions: [
+          {
+            region: "Vùng I",
+            included: "gồm các phường Long An, Tân An, Khánh Hậu và các xã An Ninh, Hiệp Hòa, Hậu Nghĩa, Hòa Khánh, Đức Lập, Mỹ Hạnh, Đức Hòa, Thạnh Lợi, Bình Đức, Lương Hòa, Bến Lức, Mỹ Yên, Phước Lý, Mỹ Lộc, Cần Giuộc, Phước Vĩnh Tây, Tân Tập."
+          },
+          {
+            region: "Vùng II",
+            included: "gồm các phường Kiến Tường, Tân Ninh, Bình Minh, Ninh Thạnh, Long Hoa, Hòa Thành, Thanh Điền, Trảng Bàng, An Tịnh, Gò Dầu, Gia Lộc và các xã Tuyên Thạnh, Bình Hiệp, Thủ Thừa, Mỹ An, Mỹ Thạnh, Tân Long, Long Cang, Rạch Kiến, Mỹ Lệ, Tân Lân, Cần Đước, Long Hựu, Hưng Thuận, Phước Chỉ, Thạnh Đức, Phước Thạnh, Truông Mít, Nhựt Tảo."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các xã Bình Thành, Thạnh Phước, Thạnh Hoá, Tân Tây, Mỹ Quý, Đông Thành, Đức Huệ, Vàm Cỏ, Tân Trụ, Thuận Mỹ, An Lục Long, Tầm Vu, Vĩnh Công, Lộc Ninh, Cầu Khởi, Dương Minh Châu, Tân Đông, Tân Châu, Tân Phú, Tân Hội, Tân Thành, Tân Hoà, Tân Lập, Tân Biên, Thạnh Bình, Trà Vong, Phước Vinh, Hoà Hội, Ninh Điền, Châu Thành, Hảo Đước, Long Chữ, Long Thuận, Bến Cầu."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 30,
+        name: "30. Tỉnh Đồng Tháp",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Mỹ Tho, Đạo Thạnh, Mỹ Phong, Thới Sơn, Trung An và các xã Tân Hương, Châu Thành, Long Hưng, Long Định, Vĩnh Kim, Kim Sơn, Bình Trưng."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Gò Công, Long Thuận, Sơn Qui, Bình Xuân, Mỹ Phước Tây, Thanh Hòa, Cai Lậy, Nhị Quý, An Bình, Hồng Ngự, Thường Lạc, Cao Lãnh, Mỹ Ngãi, Mỹ Trà, Sa Đéc và các xã Tân Phú, Tân Phước 1, Tân Phước 2, Tân Phước 3, Hưng Thạnh, Mỹ Tịnh An, Lương Hòa Lạc, Tân Thuận Bình, Chợ Gạo, An Thạnh Thủy, Bình Ninh, Tân Dương."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 31,
+        name: "31. Tỉnh Vĩnh Long",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Thanh Đức, Long Châu, Phước Hậu, Tân Hạnh, Tân Ngãi, Bình Minh, Cái Vồn, Đông Thành, An Hội, Phú Khương, Bến Tre, Sơn Đông, Phú Tân, Long Đức, Trà Vinh, Nguyệt Hóa, Hòa Thuận và các xã Phú Túc, Giao Long, Tiên Thủy, Tân Phú."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Duyên Hải, Trường Long Hòa và các xã Cái Nhum, Tân Long Hội, Nhơn Phú, Bình Phước, An Bình, Long Hồ, Phú Quới, Đồng Khởi, Mỏ Cày, Thành Thới, An Định, Hương Mỹ, Tân Thủy, Bảo Thạnh, Ba Tri, Tân Xuân, Mỹ Chánh Hòa, An Ngãi Trung, An Hiệp, Thới Thuận, Thạnh Phước, Bình Đại, Thạnh Trị, Lộc Thuận, Châu Hưng, Phú Thuận, Long Hữu, Hưng Nhượng."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 32,
+        name: "32. Tỉnh An Giang",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Long Xuyên, Bình Đức, Mỹ Thới, Châu Đốc, Vĩnh Tế, Vĩnh Thông, Rạch Giá, Hà Tiên, Tô Châu; các xã Mỹ Hòa Hưng, Tiên Hải và các đặc khu Phú Quốc, Thổ Châu."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Tân Châu, Long Phú; các xã Tân An, Châu Phong, Vĩnh Xương, Châu Phú, Mỹ Đức, Vĩnh Thạnh Trung, Bình Mỹ, Thạnh Mỹ Tây, An Châu, Bình Hòa, Cần Đăng, Vĩnh Hanh, Vĩnh An, Thoại Sơn, Óc Eo, Định Mỹ, Phú Hòa, Vĩnh Trạch, Tây Phú, Thạnh Lộc, Châu Thành, Bình An, Hòa Điền, Kiên Lương, Sơn Hải, Hòn Nghệ và đặc khu Kiên Hải."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 33,
+        name: "33. Thành phố Cần Thơ",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường Phú Lợi, Mỹ Xuyên, Ninh Kiều, Cái Khế, Tân An, An Bình, Thới An Đông, Bình Thủy, Long Tuyền, Cái Răng, Hưng Phú, Ô Môn, Thới Long, Phước Thới, Trung Nhứt, Thốt Nốt, Thuận Hưng, Tân Lộc, Sóc Trăng."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Vị Thanh, Vị Tân, Đại Thành, Ngã Bảy, Vĩnh Phước, Vĩnh Châu, Khánh Hòa, Ngã Năm, Mỹ Quới và các xã Tân Long, Phong Điền, Nhơn Ái, Trường Long, Thới Lai, Đông Thuận, Trường Xuân, Trường Thành, Cờ Đỏ, Đông Hiệp, Thạnh Phú, Thới Hưng, Trung Hưng, Vĩnh Thạnh, Vĩnh Trinh, Thạnh An, Thạnh Quới, Hỏa Lựu, Thạnh Xuân, Tân Hòa, Trường Long Tây, Châu Thành, Đông Phước, Phú Hữu, Vĩnh Hải, Lai Hòa."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      },
+      {
+        id: 34,
+        name: "34. Tỉnh Cà Mau",
+        regions: [
+          {
+            region: "Vùng II",
+            included: "gồm các phường An Xuyên, Lý Văn Lâm, Tân Thành, Hòa Thành, Bạc Liêu, Vĩnh Trạch, Hiệp Thành."
+          },
+          {
+            region: "Vùng III",
+            included: "gồm các phường Giá Rai, Láng Tròn và các xã U Minh, Nguyễn Phích, Khánh Lâm, Khánh An, Khánh Bình, Đá Bạc, Khánh Hưng, Sông Đốc, Trần Văn Thời, Đất Mới, Năm Căn, Tam Giang, Lương Thế Trân, Hưng Mỹ, Cái Nước, Tân Hưng, Phú Mỹ, Phong Thạnh, Hòa Bình, Vĩnh Mỹ, Vĩnh Hậu."
+          },
+          {
+            region: "Vùng IV",
+            included: "gồm các xã, phường còn lại."
+          }
+        ]
+      }
+    ];
+
+    /* =========================================================
+       3. ANIMATION: ĐỒNG VÀNG RƠI TÍCH TỤ TRONG CANVAS HERO
+    ========================================================= */
+    const canvas = document.getElementById('coinCanvas');
+    const ctx = canvas.getContext('2d');
+    let coins = [];
+    let animationFrameId;
+    let spawnRate = 4; // Tăng số lượng tạo đồng vàng dày đặc hơn
+    let totalCoinsFallen = 0;
+    const coinCountDisplay = document.getElementById('coinCountDisplay');
+    const toggleCoinBtn = document.getElementById('toggleCoinFlow');
+    const coinBtnText = document.getElementById('coinBtnText');
+    let isFastMode = false;
+
+    // Tự động căn chỉnh kích thước canvas theo khung cha 16:9
+    function resizeCanvas() {
+      if (!canvas || !canvas.parentElement) return;
+      const rect = canvas.parentElement.getBoundingClientRect();
+      canvas.width = rect.width;
+      canvas.height = rect.height;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    // Lớp đối tượng đồng vàng (GoldCoin)
+    class GoldCoin {
+      constructor(isBurst = false) {
+        this.radius = 10 + Math.random() * 11; // Bán kính đồng tiền
+        this.x = Math.random() * (canvas.width || 800);
+        this.y = isBurst ? Math.random() * 100 : -20 - Math.random() * 50;
+        this.vy = 0.8 + Math.random() * 1.4; // Tốc độ rơi chầm chậm, êm ái
+        this.vx = (Math.random() - 0.5) * 1.0;
+        this.rotation = Math.random() * Math.PI * 2;
+        this.vRot = (Math.random() - 0.5) * 0.08;
+        this.scaleY = 0.6 + Math.random() * 0.4; // Hiệu ứng xoay 3D
+        this.isSettled = false;
+      }
+
+      update() {
+        if (this.isSettled) return;
+
+        this.y += this.vy;
+        this.x += this.vx;
+        this.rotation += this.vRot;
+        this.scaleY = Math.abs(Math.sin(this.rotation));
+
+        // Tiếp đất hoặc chạm đáy
+        const bottomLimit = canvas.height - this.radius;
+        if (this.y >= bottomLimit) {
+          this.y = bottomLimit;
+          this.isSettled = true;
+          totalCoinsFallen++;
+          if (coinCountDisplay) {
+            coinCountDisplay.innerText = `Đang tích lũy đồng tiền: ${totalCoinsFallen} đồng vàng rơi`;
+          }
+        }
+      }
+
+      draw(c) {
+        c.save();
+        c.translate(this.x, this.y);
+        c.rotate(this.rotation);
+        c.scale(1, Math.max(0.2, this.scaleY));
+
+        // Đổ bóng đồng vàng
+        c.shadowColor = 'rgba(0, 0, 0, 0.25)';
+        c.shadowBlur = 6;
+        c.shadowOffsetY = 3;
+
+        // Gradient ánh kim vàng
+        const grad = c.createLinearGradient(-this.radius, -this.radius, this.radius, this.radius);
+        grad.addColorStop(0, '#FFE082');
+        grad.addColorStop(0.4, '#FFB300');
+        grad.addColorStop(0.8, '#FF8F00');
+        grad.addColorStop(1, '#FF6F00');
+
+        c.beginPath();
+        c.arc(0, 0, this.radius, 0, Math.PI * 2);
+        c.fillStyle = grad;
+        c.fill();
+
+        // Viền ánh kim sáng
+        c.lineWidth = Math.max(1.2, this.radius * 0.14);
+        c.strokeStyle = '#FFF9C4';
+        c.stroke();
+
+        // Vòng tròn lõi đồng xu
+        c.beginPath();
+        c.arc(0, 0, this.radius * 0.65, 0, Math.PI * 2);
+        c.strokeStyle = 'rgba(255, 236, 179, 0.8)';
+        c.lineWidth = 1;
+        c.stroke();
+
+        // Biểu tượng tiền tệ vnđ
+        c.fillStyle = '#FFFFFF';
+        c.font = `bold ${this.radius * 0.75}px sans-serif`;
+        c.textAlign = 'center';
+        c.textBaseline = 'middle';
+        c.fillText('vnđ', 0, 0);
+
+        c.restore();
+      }
+    }
+
+    // Vòng lặp animation mượt mà 60fps
+    function animateCoins() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Tạo đồng vàng liên tục với khoảng cách dày đặc, đồng đều không bị đứt đoạn
+      if (coins.length < 380) {
+        for (let i = 0; i < spawnRate; i++) {
+          coins.push(new GoldCoin());
+        }
+      }
+
+      for (let i = 0; i < coins.length; i++) {
+        const coin = coins[i];
+        coin.update();
+        coin.draw(ctx);
+      }
+
+      // Giới hạn số lượng đồng tiền để giữ hiệu suất cao
+      if (coins.length > 450) {
+        coins.splice(0, 10);
+      }
+
+      animationFrameId = requestAnimationFrame(animateCoins);
+    }
+    animateCoins();
+
+    // Nút tương tác chuyển đổi tốc độ rơi tiền vàng
+    if (toggleCoinBtn) {
+      toggleCoinBtn.addEventListener('click', () => {
+        isFastMode = !isFastMode;
+        spawnRate = isFastMode ? 5 : 2;
+        if (coinBtnText) {
+          coinBtnText.innerText = isFastMode ? "Giảm tốc độ rơi" : "Tăng tốc độ rơi tiền vàng";
+        }
+        for (let i = 0; i < 25; i++) {
+          coins.push(new GoldCoin(true));
+        }
+      });
+    }
+
+
+    /* =========================================================
+       4. BIỂU ĐỒ CỘT ĐỨNG (SECTION 1) - TƯƠNG TÁC HOVER & CLICK
+    ========================================================= */
+    const chartContainer = document.getElementById('chartTimelineContainer');
+    let activeHighlightRegion = 'all';
+
+    function renderBarChart() {
+      if (!chartContainer) return;
+      chartContainer.innerHTML = '';
+      const maxWage = 6000000; // Mốc tham chiếu tối đa (6 triệu đồng)
+      const maxHeightPx = 320; // Chiều cao tối đa (px)
+
+      historicalWageData.forEach(item => {
+        const groupEl = document.createElement('div');
+        groupEl.className = 'flex items-end justify-center gap-1.5 sm:gap-2.5 h-full px-1 group/timeline';
+
+        const regions = ['Vùng I', 'Vùng II', 'Vùng III', 'Vùng IV'];
+        
+        regions.forEach(reg => {
+          const val = item.values[reg];
+          const heightPx = (val / maxWage) * maxHeightPx;
+          const isHighlighted = activeHighlightRegion === 'all' || activeHighlightRegion === reg;
+
+          const barWrapper = document.createElement('div');
+          barWrapper.className = `flex flex-col items-center relative transition-all duration-300 cursor-pointer ${
+            isHighlighted ? 'opacity-100 scale-100' : 'opacity-20 scale-95'
+          } group/bar`;
+          barWrapper.setAttribute('data-region', reg);
+
+          // Click vào cột để lọc làm nổi bật cùng vùng ở tất cả các năm
+          barWrapper.addEventListener('click', () => {
+            highlightRegion(reg);
+          });
+
+          barWrapper.innerHTML = `
+            <!-- Tooltip số liệu nổi khi hover -->
+            <div class="absolute -top-12 z-20 opacity-0 group-hover/bar:opacity-100 transition-all pointer-events-none bg-brand-deepGreen text-yellow-300 text-[11px] font-black py-1 px-2.5 rounded-lg border border-brand-teal shadow-xl whitespace-nowrap">
+              ${reg}: ${val.toLocaleString('vi-VN')} đ
+            </div>
+
+            <!-- Cột đứng màu vàng theo yêu cầu -->
+            <div class="w-3.5 sm:w-4 lg:w-5 rounded-t-md bg-gradient-to-t from-[#FF8F00] via-[#FFB300] to-[#FFE082] border-t border-x border-yellow-200 shadow-md group-hover/bar:brightness-125 transition-all"
+                 style="height: ${heightPx}px;">
+            </div>
+
+            <!-- Tên vùng chuẩn I, II, III, IV dưới chân cột -->
+            <span class="text-[9px] sm:text-[10px] font-extrabold text-emerald-200 mt-1.5 uppercase">
+              ${reg.replace('Vùng ', '')}
+            </span>
+          `;
+
+          groupEl.appendChild(barWrapper);
+        });
+
+        chartContainer.appendChild(groupEl);
+      });
+    }
+
+    // Xử lý làm nổi bật vùng (Click vào cột hoặc bấm nút lọc)
+    function highlightRegion(regionName) {
+      activeHighlightRegion = regionName;
+
+      // Cập nhật trạng thái nút bấm
+      document.querySelectorAll('.region-filter-btn').forEach(btn => {
+        btn.className = 'region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20';
+      });
+      const activeBtn = document.getElementById(`btn-region-${regionName}`);
+      if (activeBtn) {
+        activeBtn.className = 'region-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-extrabold transition-all bg-brand-gold text-brand-deepGreen shadow';
+      }
+
+      renderBarChart();
+    }
+
+    // Khởi tạo biểu đồ lần đầu
+    renderBarChart();
+
+
+    /* =========================================================
+       5. SECTION 4: RENDER BẢNG TRA CỨU ĐỊA BÀN VÀ TÌM KIẾM
+       Bảng thống nhất 4 cột: VÙNG | ĐỊA ĐIỂM | LƯƠNG THÁNG | LƯƠNG GIỜ
+    ========================================================= */
+    const provinceTableBody = document.getElementById('provinceTableBody');
+    const noResultBox = document.getElementById('noResultBox');
+    const searchProvinceInput = document.getElementById('searchProvinceInput');
+    const searchSubAreaInput = document.getElementById('searchSubAreaInput');
+    const filterRegionSelect = document.getElementById('filterRegionSelect');
+    const searchStatusText = document.getElementById('searchStatusText');
+
+    // Hàm chuẩn hóa chuỗi không dấu để tìm kiếm thông minh
+    function cleanStr(s) {
+      return (s || '')
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d");
+    }
+
+    // Render danh mục 34 tỉnh thành phố vào bảng thống nhất
+    function renderProvinces() {
+      if (!provinceTableBody) return;
+      const provinceQuery = cleanStr(searchProvinceInput ? searchProvinceInput.value.trim() : '');
+      const subAreaQuery = cleanStr(searchSubAreaInput ? searchSubAreaInput.value.trim() : '');
+      const rawSubArea = searchSubAreaInput ? searchSubAreaInput.value.trim() : '';
+      const selectedRegion = filterRegionSelect ? filterRegionSelect.value : 'all';
+
+      provinceTableBody.innerHTML = '';
+      let matchCount = 0;
+
+      // Badge style theo từng Vùng
+      const badgeStyles = {
+        'Vùng I': 'bg-indigo-100 text-indigo-900 border-indigo-300 font-black',
+        'Vùng II': 'bg-cyan-100 text-cyan-900 border-cyan-300 font-black',
+        'Vùng III': 'bg-emerald-100 text-emerald-900 border-emerald-300 font-black',
+        'Vùng IV': 'bg-lime-100 text-lime-900 border-lime-300 font-black'
+      };
+
+      provinceData.forEach(prov => {
+        // Kiểm tra khớp tên tỉnh / thành phố
+        const matchProvince = !provinceQuery || cleanStr(prov.name).includes(provinceQuery);
+
+        // Lọc các phân vùng bên trong
+        const filteredRegions = prov.regions.filter(r => {
+          const matchRegion = (selectedRegion === 'all') || (r.region === selectedRegion);
+          const matchSub = !subAreaQuery || cleanStr(r.included).includes(subAreaQuery);
+          return matchRegion && matchSub;
+        });
+
+        if (matchProvince && filteredRegions.length > 0) {
+          matchCount++;
+
+          // Bỏ số thứ tự 1. 2. 3... ở đầu tên địa điểm
+          const cleanProvinceName = prov.name.replace(/^\d+\.\s*/, '');
+
+          // Dòng phân cách tỉnh / thành phố (Tên địa phương lớn)
+          const provRow = document.createElement('tr');
+          provRow.className = 'bg-gradient-to-r from-emerald-100/95 via-teal-50 to-emerald-100/95 border-t-2 border-b border-emerald-300';
+          provRow.innerHTML = `
+            <td colspan="4" class="px-3 sm:px-6 py-2.5 sm:py-3.5">
+              <div class="flex flex-row items-center justify-between gap-2">
+                <div class="flex items-center gap-2 sm:gap-2.5 min-w-0">
+                  <i class="fa-solid fa-location-dot text-emerald-800 text-sm sm:text-lg flex-shrink-0"></i>
+                  <h3 class="text-sm sm:text-lg font-black text-brand-deepGreen tracking-wide truncate">
+                    ${cleanProvinceName}
+                  </h3>
+                </div>
+              </div>
+            </td>
+          `;
+          provinceTableBody.appendChild(provRow);
+
+          // Từng phân vùng: Di chuyển cột LƯƠNG TỐI THIỂU THÁNG và LƯƠNG TỐI THIỂU GIỜ lên phía trên phần DANH MỤC ĐỊA BÀN
+          filteredRegions.forEach((r, idx) => {
+            const wage = wageRates2027[r.region] || { month: "---", hour: "---" };
+            const badgeCls = badgeStyles[r.region] || 'bg-slate-100 text-slate-800 border-slate-300';
+
+            // Viết hoa chữ {Gồm các....} phía đầu địa điểm
+            let includedText = r.included.trim();
+            if (includedText.toLowerCase().startsWith('gồm')) {
+              includedText = 'Gồm' + includedText.slice(3);
+            } else {
+              includedText = includedText.charAt(0).toUpperCase() + includedText.slice(1);
+            }
+
+            // Highlight từ khóa tìm kiếm nếu có
+            if (rawSubArea) {
+              const regex = new RegExp(`(${rawSubArea.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+              includedText = includedText.replace(regex, '<mark class="highlight">$1</mark>');
+            }
+
+            // Hàng 1: Di chuyển các cột LƯƠNG TỐI THIỂU THÁNG và LƯƠNG TỐI THIỂU GIỜ lên phía trên
+            const headerRow = document.createElement('tr');
+            headerRow.className = 'bg-emerald-50/60 border-b border-emerald-100 font-semibold';
+            headerRow.innerHTML = `
+              <!-- Cột 1: VÙNG -->
+              <td class="px-2.5 py-2 sm:px-3 sm:py-3.5 text-center border-r border-slate-200 w-20 sm:w-28 md:w-32 align-middle">
+                <span class="inline-block px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-lg sm:rounded-xl text-xs sm:text-sm md:text-base font-black border ${badgeCls} shadow-xs whitespace-nowrap">
+                  ${r.region}
+                </span>
+              </td>
+
+              <!-- Cột 2: ĐỊA ĐIỂM -->
+              <td class="px-3 py-2 sm:px-4 sm:py-3.5 text-sm sm:text-base font-bold text-slate-700 border-r border-slate-200 align-middle min-w-[130px]">
+              </td>
+
+              <!-- Cột 3: LƯƠNG TỐI THIỂU THÁNG (Nằm phía trên) -->
+              <td class="px-2.5 py-2 sm:px-3 sm:py-3.5 text-center border-r border-slate-200 w-32 sm:w-44 md:w-52 align-middle whitespace-nowrap bg-emerald-100/40">
+                <span class="text-brand-deepGreen font-black text-sm sm:text-base md:text-lg">${wage.month}</span>
+              </td>
+
+              <!-- Cột 4: LƯƠNG TỐI THIỂU GIỜ (Nằm phía trên) -->
+              <td class="px-2.5 py-2 sm:px-3 sm:py-3.5 text-center w-28 sm:w-36 md:w-44 align-middle whitespace-nowrap bg-teal-100/40">
+                <span class="text-teal-800 font-black text-sm sm:text-base md:text-lg">${wage.hour}</span>
+              </td>
+            `;
+            provinceTableBody.appendChild(headerRow);
+
+            // Hàng 2: DANH MỤC ĐỊA BÀN (Nằm phía dưới các cột lương)
+            const detailRow = document.createElement('tr');
+            detailRow.className = `${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'} hover:bg-emerald-50/30 transition-colors border-b-2 border-slate-200`;
+            detailRow.innerHTML = `
+              <td colspan="4" class="p-3 sm:p-5 text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
+                ${includedText}
+              </td>
+            `;
+            provinceTableBody.appendChild(detailRow);
+          });
+        }
+      });
+
+      // Cập nhật trạng thái thống kê tìm kiếm
+      if (matchCount === 0) {
+        if (noResultBox) noResultBox.classList.remove('hidden');
+        if (searchStatusText) searchStatusText.innerText = 'Không tìm thấy địa bàn phù hợp';
+      } else {
+        if (noResultBox) noResultBox.classList.add('hidden');
+        if (searchStatusText) {
+          const detail = (provinceQuery || subAreaQuery) ? ' (Đang lọc theo từ khóa)' : '';
+          searchStatusText.innerHTML = `Hiển thị <strong class="text-emerald-800">${matchCount} / 34</strong> tỉnh, thành phố trực thuộc${detail}`;
+        }
+      }
+    }
+
+    // Các hàm tìm kiếm nhanh
+    function quickSearchSub(term) {
+      if (searchProvinceInput) searchProvinceInput.value = '';
+      if (searchSubAreaInput) {
+        searchSubAreaInput.value = term;
+        searchSubAreaInput.focus();
+      }
+      renderProvinces();
+    }
+
+    function quickSearchProv(term) {
+      if (searchSubAreaInput) searchSubAreaInput.value = '';
+      if (searchProvinceInput) {
+        searchProvinceInput.value = term;
+        searchProvinceInput.focus();
+      }
+      renderProvinces();
+    }
+
+    // Đặt lại tìm kiếm
+    function resetSearch() {
+      if (searchProvinceInput) searchProvinceInput.value = '';
+      if (searchSubAreaInput) searchSubAreaInput.value = '';
+      if (filterRegionSelect) filterRegionSelect.value = 'all';
+      renderProvinces();
+    }
+
+    // Gắn sự kiện lắng nghe tìm kiếm
+    if (searchProvinceInput) searchProvinceInput.addEventListener('input', renderProvinces);
+    if (searchSubAreaInput) searchSubAreaInput.addEventListener('input', renderProvinces);
+    if (filterRegionSelect) filterRegionSelect.addEventListener('change', renderProvinces);
+
+    // Khởi tạo bảng danh mục địa bàn lần đầu
+    renderProvinces();
+
+
+    /* =========================================================
+       7. TƯƠNG TÁC RÊ CHUỘT & CLICK QUADRANTS HÌNH TRÒN & THẺ (SECTION 2)
+    ========================================================= */
+    const quadrants = document.querySelectorAll('.quadrant-box');
+    quadrants.forEach(q => {
+      q.addEventListener('mouseenter', () => {
+        const reg = q.getAttribute('data-region');
+        highlightRegion(reg);
+      });
+      q.addEventListener('mouseleave', () => {
+        highlightRegion('all');
+      });
+      q.addEventListener('click', () => {
+        const reg = q.getAttribute('data-region');
+        highlightRegion(reg);
+        if (filterRegionSelect) {
+          filterRegionSelect.value = reg;
+          renderProvinces();
+        }
+      });
+    });
+
+
+    /* =========================================================
+       8. HIỆU ỨNG GỢN SÓNG (RIPPLE EFFECT) KHI CLICK .interactive-card
+    ========================================================= */
+    document.addEventListener('click', (e) => {
+      const card = e.target.closest('.interactive-card');
+      if (!card) return;
+
+      // Đảm bảo có container bao chứa overflow-hidden phù hợp bo góc thẻ
+      let container = card.querySelector('.ripple-container');
+      if (!container) {
+        container = document.createElement('div');
+        container.className = 'ripple-container absolute inset-0 overflow-hidden rounded-2xl pointer-events-none z-10';
+        card.appendChild(container);
+      }
+
+      const rect = card.getBoundingClientRect();
+      const diameter = Math.max(rect.width, rect.height);
+      const radius = diameter / 2;
+
+      // Xác định tọa độ click chuột tương đối so với thẻ
+      const clickX = (e.clientX !== undefined && e.clientX !== 0) ? e.clientX : (rect.left + rect.width / 2);
+      const clickY = (e.clientY !== undefined && e.clientY !== 0) ? e.clientY : (rect.top + rect.height / 2);
+
+      const circle = document.createElement('span');
+      circle.className = 'ripple-wave';
+      circle.style.width = `${diameter}px`;
+      circle.style.height = `${diameter}px`;
+      circle.style.left = `${clickX - rect.left - radius}px`;
+      circle.style.top = `${clickY - rect.top - radius}px`;
+
+      container.appendChild(circle);
+
+      // Tự động thu dọn phần tử sau khi animation hoàn tất
+      setTimeout(() => {
+        circle.remove();
+      }, 800);
+    });
+
+  </script>
+
+</body>
+</html>

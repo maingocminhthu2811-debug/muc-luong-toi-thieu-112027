@@ -1,0 +1,6 @@
+{
+  "name": "Infographic Mức Lương Tối Thiểu Vùng 2027",
+  "description": "Infographic tương tác tuyên truyền Mức lương tối thiểu vùng áp dụng từ ngày 01/01/2027 theo Nghị định 399/2026/NĐ-CP",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
